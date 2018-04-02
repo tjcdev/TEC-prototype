@@ -2,11 +2,11 @@ $(function() {
         // Create the chart
         chart = new Highcharts.Chart({
             chart: {
-                renderTo: 'container',
+                renderTo: 'graphContainer',
                 type: 'pie'
             },
             title: {
-                text: 'Spending Breakdown'
+                text: ''
             },
             yAxis: {
                 title: {
@@ -16,6 +16,11 @@ $(function() {
             plotOptions: {
                 pie: {
                     shadow: false
+                }
+            },
+            navigation: {
+                buttonOptions: {
+                    enabled: false
                 }
             },
             tooltip: {
