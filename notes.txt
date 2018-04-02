@@ -1,0 +1,2 @@
+Links with JSON:
+https://github.com/OpenBankProject/OBP-API/wiki/REST-API-V1.2.1#transactions
